@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+    <body>
+        <header>
+            <h1>Uma página de Front-end</h1>
+            <p>
+                <b>Um texto em negrito</b>
+                <i>Um texto em itálico</i>
+            </p>
+        </header>
+        <nav>
+            <ul>
+                <li>Menu</li>
+                <li>Principal</li>
+                <li>Produtos</li>
+                <li>Serviços</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+        <main>
+            <table>
+                <caption>Lucro por Mês</caption>
+                <thead>
+                    <tr>
+                        <th>Mês</th>
+                        <th colspan="2">Frutas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>Banana</th>
+                        <th>Maça</th>
+                    </tr>
+                    <tr>
+                        <td>Janeiro</td>
+                        <td>100</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Fevereiro</td>
+                        <td>120</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Março</td>
+                        <td>120</td>
+                        <td>150</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>340</td>
+                        <td>300</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </body>
+</html>
